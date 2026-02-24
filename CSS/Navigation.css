@@ -1,0 +1,28 @@
+.nav{
+  max-width: 80vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  
+}
+.nav-list a{
+  text-decoration: none;
+}
+.nav-list li{
+  margin:25px;
+  color: #d09d9d;
+}
+.nav-list li:hover{
+  border-bottom: 2px solid rgb(159, 159, 186);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  padding-bottom: 6px;
+}

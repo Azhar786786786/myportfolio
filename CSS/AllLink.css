@@ -1,0 +1,54 @@
+#AllLink{
+  background-color: rgb(230, 239, 239);
+  height: 100vh;
+}
+#AllLink h3{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  padding:20px;
+}
+#AllLink h3 span{
+  color:rgb(227, 57, 100);
+}
+.AllLinkMain{
+  width: 60vw;
+  height: 70vh;
+  background-color: #e7dbe799;
+  margin:auto;
+  margin-top:40px;
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  box-shadow: 0px 0px 80px rgb(161, 27, 161);
+}
+.AllLinkMain:hover{
+  box-shadow: 0px 0px 80px rgb(145, 132, 145);
+  border-bottom: 2px solid #470847;
+}
+.AllLinkMain h4{
+  color: white;
+  font-size: 18px;
+  padding-top:20px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom:2px solid rgb(76, 154, 218);
+}
+.AllLinkMain h4 span{
+  color: #e743e799;
+}
+.LinkImages{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.LinkImages img{
+  width: 80px;
+}
+.LinkImages img:hover{
+  transform: translateY(-20px);
+  transition: transform 0.5s;
+  cursor: pointer;
+}

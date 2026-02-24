@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 300vw;
+}
+.mainHeading{
+  color:white;
+}
+.heading{
+  color:rgb(11, 134, 164);
+}
+.headingData{
+  color:rgb(52, 109, 180);
+}
+table{
+  margin-left: 10px;
+  font-size: 14px;
+}
+/* .contentData{
+  width: 50%;
+  margin:180px 50px;
+} */
+
+@media only screen and(max-width:1215px) {
+  .mainHome{
+    flex-direction: column;
+    height: 70vh;
+  }
+  .mgn{
+    margin:0px;
+  }
+  .mainHomeRight img{
+    margin: 100px 0px;
+  }
+}
+@media only screen and(max-width:528px) {
+  .nav-list{
+    font-size: 15px;
+  }
+}
+@media only screen and(max-width:510px){
+  .nav-list li{
+    margin:20px;
+  }
+}
+@media only screen and(max-width:460px){
+  .nav-list{
+    font-size: 15px;
+  }
+  .para{
+  font-size: 25px;
+}
+.para1 span{
+  font-size: 30px;
+}
+.para2{
+  font-size: 35px;
+}
+.para3{
+  font-size: 16px;
+}
+}
+@media only screen and(max-width:425px)
+{
+  .nav-list li{
+    margin:16px;
+    font-size: 12px;
+  }
+  .para{
+  font-size: 20px;
+}
+.para1 span{
+  font-size: 25px;
+}
+.para2{
+  font-size: 30px;
+}
+.para3{
+  font-size: 11px;
+}
+}
+@media only screen and(max-width:369px){
+.nav-list li{
+    margin:13px;
+    font-size: 11px;
+  }
+  .para{
+  font-size: 15px;
+}
+.para1 span{
+  font-size: 20px;
+}
+.para2{
+  font-size: 25px;
+}
+.para3{
+  font-size: 8px;
+}
+}
+@media only screen and(max-width:329px){
+.nav-list li{
+    margin:10px;
+    font-size: 10px;
+  }
+  .para{
+  font-size: 10px;
+}
+.para1 span{
+  font-size: 15px;
+}
+.para2{
+  font-size: 20px;
+}
+.para3{
+  font-size: 4px;
+}
+}
