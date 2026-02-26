@@ -1,7 +1,6 @@
 #ContactUs{
   background-color: rgb(230, 239, 239);
   height: 100vh;
-
 }
 #ContactUs h3{
   text-align: center;
@@ -14,14 +13,14 @@
 }
 .ContactMain{
   width: 60vw;
-  height: 70vh;
+  height: 50vh;
   background-color: #e7dbe799;
   margin:auto;
   margin-top:40px;
   backdrop-filter: blur(4px);
   border-radius: 20px;
   box-shadow: 0px 0px 80px rgb(161, 27, 161);
-    min-height: 100vh;
+  min-height: 70vh;
   display: flex;
 }
 .ContactMain:hover{
@@ -75,11 +74,11 @@
   width: 50%;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: right;
 }
 form{
-  width: 80%;
+  width: 50%;
   height: 70%;
   background-color: rgb(79, 110, 110);
   box-shadow: 2px 2px 10px rgb(24,139,278), 2px 2px 50px rgb(24,139,478);
